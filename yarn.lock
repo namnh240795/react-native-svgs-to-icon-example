@@ -6416,9 +6416,10 @@ react-native-gradle-plugin@^0.71.17:
   resolved "https://registry.npmjs.org/react-native-gradle-plugin/-/react-native-gradle-plugin-0.71.17.tgz"
   integrity sha512-OXXYgpISEqERwjSlaCiaQY6cTY5CH6j73gdkWpK0hedxtiWMWgH+i5TOi4hIGYitm9kQBeyDu+wim9fA8ROFJA==
 
-"react-native-svgs-to-icon@git+https://github.com/namnh240795/react-native-svgs-to-icon.git":
+react-native-svgs-to-icon@^1.0.0:
   version "1.0.0"
-  resolved "git+https://github.com/namnh240795/react-native-svgs-to-icon.git#249c665e31a8437d0ba067180c06b7a247f5d8bc"
+  resolved "https://registry.yarnpkg.com/react-native-svgs-to-icon/-/react-native-svgs-to-icon-1.0.0.tgz#8de5901cc0bb8b271d5f72eb5206117c0146db0e"
+  integrity sha512-goN569Kf1HCACv+KpQn2sBF8NSlp1OkrNbc7vtkAA/U6L+mE2b5Hck935n1PuvS5wEX2ywRG42zJjZKUX2AanA==
   dependencies:
     "@types/fs-extra" "^11.0.1"
     cli-alerts "^1.2.2"
