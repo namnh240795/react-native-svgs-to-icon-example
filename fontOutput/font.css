@@ -1,0 +1,27 @@
+@font-face {
+    font-family: MyFont;
+    src: url("MyFont.eot");src: url("MyFont.eot?121de5d5#iefix") format("embedded-opentype"),
+             url("MyFont.woff2?121de5d5") format("woff2"),
+             url("MyFont.woff?121de5d5") format("woff"),
+             url("MyFont.ttf?121de5d5") format("truetype"),
+             url("MyFont.svg?121de5d5#MyFont") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+
+[class^="MyFont"], [class*=" MyFont"] {
+    font-family: 'MyFont' !important;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-style: normal;
+}
+
+
+.MyFont-calendar_today::before {
+    content: "\554a";
+}
+
+.MyFont-keyboard_double_arrow_up::before {
+    content: "\554b";
+}
+
